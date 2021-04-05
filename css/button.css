@@ -1,11 +1,11 @@
-#button{
+.button{
     display: inline-block;
     background-color: #ff8c00;
     padding: 15px 20px;
-    border-radius: 40px;
+    box-shadow:0px 4px black;
     margin-right: 0;
     transition:  transform 200ms cubic-bezier(.68,-0.55,.27,1.55);
 }
-#button:hover{
+.button:hover{
     transform: scale(1.05);
 }

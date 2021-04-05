@@ -1,6 +1,6 @@
-.icon{
+#icon{
    transition:  transform 200ms cubic-bezier(.68,-0.55,.27,1.55);
 }
-.icon:hover{
+#icon:hover{
     transform: scale(1.3);
 }

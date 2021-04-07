@@ -1,0 +1,22 @@
+.action{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+    vertical-align:middle;
+}
+.action:before {
+    content: "";
+    background: #ff8c00;
+    width: 7px;
+    height: 7px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.action:hover{
+    text-decoration: underline dotted;
+}

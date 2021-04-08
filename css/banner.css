@@ -1,0 +1,22 @@
+.banner{
+    box-sizing: content-box;
+    background-image: url(../assets/img/fotofundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    border-bottom: 5px solid #ff8c00;
+    padding-left: 115px;
+    padding-top: 90px;
+}
+.banner .wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+.banner .box{
+    margin-bottom: 40px;
+}
+.banner .navigation{
+    display: flex;
+    justify-content: space-around;
+}
